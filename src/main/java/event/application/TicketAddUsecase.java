@@ -1,6 +1,7 @@
 package event.application;
 
 import event.domain.Ticket;
+import event.domain.TicketAddEventPublisher;
 import event.domain.TicketRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -9,11 +9,11 @@ import org.springframework.transaction.annotation.Transactional;
  * チケット登録イベントのリスナー.
  */
 @Component
-public class TicketAddEventListener {
+public class TicketAddEventSubscriber {
 
   private final TicketRepository ticketRepository;
 
-  TicketAddEventListener(TicketRepository ticketRepository) {
+  TicketAddEventSubscriber(TicketRepository ticketRepository) {
     this.ticketRepository = ticketRepository;
   }
 

@@ -1,4 +1,4 @@
-package event.application;
+package event.domain;
 
 import event.domain.Ticket;
 import event.domain.TicketAddEvent;
